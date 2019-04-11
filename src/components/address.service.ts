@@ -2,8 +2,8 @@ import { Result } from './interfaces/result';
 import { DataItem } from './interfaces/data-item';
 import { Data } from './interfaces/data';
 import { Options } from './interfaces/options';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/forkJoin';
+import { Observable } from 'rxjs';
+import 'rxjs';
 import { Injectable, EventEmitter } from '@angular/core';
 import { DataType } from "../index";
 

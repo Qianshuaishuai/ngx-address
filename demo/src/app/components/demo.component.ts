@@ -7,8 +7,8 @@ import { AddressDataCNService } from 'ngx-address/data/cn';
 import { AddressDataKotService } from 'ngx-address/data/kot';
 import { AddressDataTWService } from 'ngx-address/data/tw';
 import { AddressDataMaService } from 'ngx-address/data/ma';
-import { Observable } from "rxjs/Observable";
-import 'rxjs/add/operator/map';
+import { Observable } from "rxjs";
+import 'rxjs';
 
 @Component({
     selector: 'demo',

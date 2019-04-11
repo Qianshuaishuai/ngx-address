@@ -1,9 +1,9 @@
 import { IExternalData } from './../../components/interfaces/external-data';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
 import { DataType } from '../../components/interfaces/data-type'
 import { Data } from '../../components/interfaces/data'
-import { Subscriber } from "rxjs/Subscriber";
+import { Subscriber } from "rxjs";
 
 @Injectable()
 export class AddressDataMaService implements IExternalData {

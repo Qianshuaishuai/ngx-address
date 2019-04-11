@@ -1,5 +1,5 @@
 import { Data } from './data';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 
 export interface IExternalData {
 
