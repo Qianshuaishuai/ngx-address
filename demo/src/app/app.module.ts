@@ -18,7 +18,6 @@ import { DemoComponent } from './components/demo.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule,
     CommonModule,
     
     NgxAddressModule,
